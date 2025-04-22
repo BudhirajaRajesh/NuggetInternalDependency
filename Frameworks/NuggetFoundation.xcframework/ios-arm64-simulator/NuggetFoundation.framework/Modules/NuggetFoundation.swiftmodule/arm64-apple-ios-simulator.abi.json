@@ -1,0 +1,3231 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "NuggetFoundation",
+    "printedName": "NuggetFoundation",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NuggetFoundation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZOSBuildVersionChecker",
+        "printedName": "ZOSBuildVersionChecker",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZOSBuildVersionChecker",
+                "printedName": "NuggetFoundation.ZOSBuildVersionChecker",
+                "usr": "c:@M@NuggetFoundation@objc(cs)ZOSBuildVersionChecker"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NuggetFoundation@objc(cs)ZOSBuildVersionChecker(cpy)shared",
+            "mangledName": "$s16NuggetFoundation22ZOSBuildVersionCheckerC6sharedACvpZ",
+            "moduleName": "NuggetFoundation",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZOSBuildVersionChecker",
+                    "printedName": "NuggetFoundation.ZOSBuildVersionChecker",
+                    "usr": "c:@M@NuggetFoundation@objc(cs)ZOSBuildVersionChecker"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NuggetFoundation@objc(cs)ZOSBuildVersionChecker(cm)shared",
+                "mangledName": "$s16NuggetFoundation22ZOSBuildVersionCheckerC6sharedACvgZ",
+                "moduleName": "NuggetFoundation",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "osVersionString",
+            "printedName": "osVersionString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NuggetFoundation@objc(cs)ZOSBuildVersionChecker(py)osVersionString",
+            "mangledName": "$s16NuggetFoundation22ZOSBuildVersionCheckerC02osD6StringSSvp",
+            "moduleName": "NuggetFoundation",
+            "declAttributes": [
+              "Final",
+              "Lazy",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NuggetFoundation@objc(cs)ZOSBuildVersionChecker(im)osVersionString",
+                "mangledName": "$s16NuggetFoundation22ZOSBuildVersionCheckerC02osD6StringSSvg",
+                "moduleName": "NuggetFoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NuggetFoundation@objc(cs)ZOSBuildVersionChecker(im)setOsVersionString:",
+                "mangledName": "$s16NuggetFoundation22ZOSBuildVersionCheckerC02osD6StringSSvs",
+                "moduleName": "NuggetFoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation22ZOSBuildVersionCheckerC02osD6StringSSvM",
+                "mangledName": "$s16NuggetFoundation22ZOSBuildVersionCheckerC02osD6StringSSvM",
+                "moduleName": "NuggetFoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buildNumber",
+            "printedName": "buildNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NuggetFoundation@objc(cs)ZOSBuildVersionChecker(py)buildNumber",
+            "mangledName": "$s16NuggetFoundation22ZOSBuildVersionCheckerC11buildNumberSSvp",
+            "moduleName": "NuggetFoundation",
+            "declAttributes": [
+              "Final",
+              "Lazy",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NuggetFoundation@objc(cs)ZOSBuildVersionChecker(im)buildNumber",
+                "mangledName": "$s16NuggetFoundation22ZOSBuildVersionCheckerC11buildNumberSSvg",
+                "moduleName": "NuggetFoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NuggetFoundation@objc(cs)ZOSBuildVersionChecker(im)setBuildNumber:",
+                "mangledName": "$s16NuggetFoundation22ZOSBuildVersionCheckerC11buildNumberSSvs",
+                "moduleName": "NuggetFoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation22ZOSBuildVersionCheckerC11buildNumberSSvM",
+                "mangledName": "$s16NuggetFoundation22ZOSBuildVersionCheckerC11buildNumberSSvM",
+                "moduleName": "NuggetFoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isBeta",
+            "printedName": "isBeta",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NuggetFoundation@objc(cs)ZOSBuildVersionChecker(py)isBeta",
+            "mangledName": "$s16NuggetFoundation22ZOSBuildVersionCheckerC6isBetaSbvp",
+            "moduleName": "NuggetFoundation",
+            "declAttributes": [
+              "Final",
+              "Lazy",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NuggetFoundation@objc(cs)ZOSBuildVersionChecker(im)isBeta",
+                "mangledName": "$s16NuggetFoundation22ZOSBuildVersionCheckerC6isBetaSbvg",
+                "moduleName": "NuggetFoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NuggetFoundation@objc(cs)ZOSBuildVersionChecker(im)setIsBeta:",
+                "mangledName": "$s16NuggetFoundation22ZOSBuildVersionCheckerC6isBetaSbvs",
+                "moduleName": "NuggetFoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation22ZOSBuildVersionCheckerC6isBetaSbvM",
+                "mangledName": "$s16NuggetFoundation22ZOSBuildVersionCheckerC6isBetaSbvM",
+                "moduleName": "NuggetFoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasContinuationAffectedBeta",
+            "printedName": "hasContinuationAffectedBeta",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NuggetFoundation@objc(cs)ZOSBuildVersionChecker(py)hasContinuationAffectedBeta",
+            "mangledName": "$s16NuggetFoundation22ZOSBuildVersionCheckerC27hasContinuationAffectedBetaSbvp",
+            "moduleName": "NuggetFoundation",
+            "declAttributes": [
+              "Final",
+              "Lazy",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NuggetFoundation@objc(cs)ZOSBuildVersionChecker(im)hasContinuationAffectedBeta",
+                "mangledName": "$s16NuggetFoundation22ZOSBuildVersionCheckerC27hasContinuationAffectedBetaSbvg",
+                "moduleName": "NuggetFoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NuggetFoundation@objc(cs)ZOSBuildVersionChecker(im)setHasContinuationAffectedBeta:",
+                "mangledName": "$s16NuggetFoundation22ZOSBuildVersionCheckerC27hasContinuationAffectedBetaSbvs",
+                "moduleName": "NuggetFoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation22ZOSBuildVersionCheckerC27hasContinuationAffectedBetaSbvM",
+                "mangledName": "$s16NuggetFoundation22ZOSBuildVersionCheckerC27hasContinuationAffectedBetaSbvM",
+                "moduleName": "NuggetFoundation",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NuggetFoundation@objc(cs)ZOSBuildVersionChecker",
+        "mangledName": "$s16NuggetFoundation22ZOSBuildVersionCheckerC",
+        "moduleName": "NuggetFoundation",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NuggetFoundation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WeakRef",
+        "printedName": "WeakRef",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrapped",
+            "printedName": "wrapped",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "τ_0_0?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16NuggetFoundation7WeakRefC7wrappedxSgvp",
+            "mangledName": "$s16NuggetFoundation7WeakRefC7wrappedxSgvp",
+            "moduleName": "NuggetFoundation",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation7WeakRefC7wrappedxSgvg",
+                "mangledName": "$s16NuggetFoundation7WeakRefC7wrappedxSgvg",
+                "moduleName": "NuggetFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : AnyObject>",
+                "sugared_genericSig": "<T where T : AnyObject>",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation7WeakRefC7wrappedxSgvs",
+                "mangledName": "$s16NuggetFoundation7WeakRefC7wrappedxSgvs",
+                "moduleName": "NuggetFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : AnyObject>",
+                "sugared_genericSig": "<T where T : AnyObject>",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation7WeakRefC7wrappedxSgvM",
+                "mangledName": "$s16NuggetFoundation7WeakRefC7wrappedxSgvM",
+                "moduleName": "NuggetFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : AnyObject>",
+                "sugared_genericSig": "<T where T : AnyObject>",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasValue",
+            "printedName": "hasValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16NuggetFoundation7WeakRefC8hasValueSbvp",
+            "mangledName": "$s16NuggetFoundation7WeakRefC8hasValueSbvp",
+            "moduleName": "NuggetFoundation",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation7WeakRefC8hasValueSbvg",
+                "mangledName": "$s16NuggetFoundation7WeakRefC8hasValueSbvg",
+                "moduleName": "NuggetFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : AnyObject>",
+                "sugared_genericSig": "<T where T : AnyObject>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakRef",
+                "printedName": "NuggetFoundation.WeakRef<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:16NuggetFoundation7WeakRefC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16NuggetFoundation7WeakRefCyACyxGxcfc",
+            "mangledName": "$s16NuggetFoundation7WeakRefCyACyxGxcfc",
+            "moduleName": "NuggetFoundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : AnyObject>",
+            "sugared_genericSig": "<T where T : AnyObject>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16NuggetFoundation7WeakRefC",
+        "mangledName": "$s16NuggetFoundation7WeakRefC",
+        "moduleName": "NuggetFoundation",
+        "genericSig": "<τ_0_0 where τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<T where T : AnyObject>",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NuggetFoundation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "withZContinuation",
+        "printedName": "withZContinuation(isolation:function:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_0"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "(any _Concurrency.Actor)?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Actor",
+                "printedName": "any _Concurrency.Actor",
+                "usr": "s:ScA"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(NuggetFoundation.ZContinuation<τ_0_0, Swift.Never>) -> ()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZContinuation",
+                "printedName": "NuggetFoundation.ZContinuation<τ_0_0, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:16NuggetFoundation13ZContinuationO"
+              }
+            ],
+            "typeAttributes": [
+              "noescape"
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:16NuggetFoundation17withZContinuation9isolation8function_xScA_pSgYi_SSyAA0D0Oyxs5NeverOGXEtYalF",
+        "mangledName": "$s16NuggetFoundation17withZContinuation9isolation8function_xScA_pSgYi_SSyAA0D0Oyxs5NeverOGXEtYalF",
+        "moduleName": "NuggetFoundation",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl",
+          "Inlinable"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "withThrowingZContinuation",
+        "printedName": "withThrowingZContinuation(isolation:function:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_0"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "(any _Concurrency.Actor)?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Actor",
+                "printedName": "any _Concurrency.Actor",
+                "usr": "s:ScA"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(NuggetFoundation.ZContinuation<τ_0_0, any Swift.Error>) -> ()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZContinuation",
+                "printedName": "NuggetFoundation.ZContinuation<τ_0_0, any Swift.Error>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:16NuggetFoundation13ZContinuationO"
+              }
+            ],
+            "typeAttributes": [
+              "noescape"
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:16NuggetFoundation25withThrowingZContinuation9isolation8function_xScA_pSgYi_SSyAA0E0Oyxs5Error_pGXEtYaKlF",
+        "mangledName": "$s16NuggetFoundation25withThrowingZContinuation9isolation8function_xScA_pSgYi_SSyAA0E0Oyxs5Error_pGXEtYaKlF",
+        "moduleName": "NuggetFoundation",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl",
+          "Inlinable"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZContinuation",
+        "printedName": "ZContinuation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "checked",
+            "printedName": "checked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0, τ_0_1 where τ_0_1 : Swift.Error> (NuggetFoundation.ZContinuation<τ_0_0, τ_0_1>.Type) -> (_Concurrency.CheckedContinuation<τ_0_0, τ_0_1>) -> NuggetFoundation.ZContinuation<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(_Concurrency.CheckedContinuation<τ_0_0, τ_0_1>) -> NuggetFoundation.ZContinuation<τ_0_0, τ_0_1>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZContinuation",
+                        "printedName": "NuggetFoundation.ZContinuation<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:16NuggetFoundation13ZContinuationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckedContinuation",
+                        "printedName": "_Concurrency.CheckedContinuation<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:ScC"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NuggetFoundation.ZContinuation<τ_0_0, τ_0_1>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZContinuation",
+                        "printedName": "NuggetFoundation.ZContinuation<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:16NuggetFoundation13ZContinuationO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16NuggetFoundation13ZContinuationO7checkedyACyxq_GScCyxq_GcAEms5ErrorR_r0_lF",
+            "mangledName": "$s16NuggetFoundation13ZContinuationO7checkedyACyxq_GScCyxq_GcAEms5ErrorR_r0_lF",
+            "moduleName": "NuggetFoundation"
+          },
+          {
+            "kind": "Var",
+            "name": "unsafe",
+            "printedName": "unsafe",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0, τ_0_1 where τ_0_1 : Swift.Error> (NuggetFoundation.ZContinuation<τ_0_0, τ_0_1>.Type) -> (_Concurrency.UnsafeContinuation<τ_0_0, τ_0_1>) -> NuggetFoundation.ZContinuation<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(_Concurrency.UnsafeContinuation<τ_0_0, τ_0_1>) -> NuggetFoundation.ZContinuation<τ_0_0, τ_0_1>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZContinuation",
+                        "printedName": "NuggetFoundation.ZContinuation<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:16NuggetFoundation13ZContinuationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnsafeContinuation",
+                        "printedName": "_Concurrency.UnsafeContinuation<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:Scc"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NuggetFoundation.ZContinuation<τ_0_0, τ_0_1>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZContinuation",
+                        "printedName": "NuggetFoundation.ZContinuation<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:16NuggetFoundation13ZContinuationO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16NuggetFoundation13ZContinuationO6unsafeyACyxq_GSccyxq_GcAEms5ErrorR_r0_lF",
+            "mangledName": "$s16NuggetFoundation13ZContinuationO6unsafeyACyxq_GSccyxq_GcAEms5ErrorR_r0_lF",
+            "moduleName": "NuggetFoundation"
+          },
+          {
+            "kind": "Function",
+            "name": "resume",
+            "printedName": "resume(returning:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16NuggetFoundation13ZContinuationO6resume9returningyx_tF",
+            "mangledName": "$s16NuggetFoundation13ZContinuationO6resume9returningyx_tF",
+            "moduleName": "NuggetFoundation",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_1 : Swift.Error>",
+            "sugared_genericSig": "<T, E where E : Swift.Error>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resume",
+            "printedName": "resume()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16NuggetFoundation13ZContinuationO6resumeyyytRszrlF",
+            "mangledName": "$s16NuggetFoundation13ZContinuationO6resumeyyytRszrlF",
+            "moduleName": "NuggetFoundation",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 == (), τ_0_1 : Swift.Error>",
+            "sugared_genericSig": "<T, E where T == (), E : Swift.Error>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resume",
+            "printedName": "resume(throwing:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_1"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16NuggetFoundation13ZContinuationO6resume8throwingyq__tF",
+            "mangledName": "$s16NuggetFoundation13ZContinuationO6resume8throwingyq__tF",
+            "moduleName": "NuggetFoundation",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_1 : Swift.Error>",
+            "sugared_genericSig": "<T, E where E : Swift.Error>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16NuggetFoundation13ZContinuationO",
+        "mangledName": "$s16NuggetFoundation13ZContinuationO",
+        "moduleName": "NuggetFoundation",
+        "genericSig": "<τ_0_0, τ_0_1 where τ_0_1 : Swift.Error>",
+        "sugared_genericSig": "<T, E where E : Swift.Error>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "NuggetFoundation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZVideoDataLoggable",
+        "printedName": "ZVideoDataLoggable",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "handleAccessLogUpdate",
+            "printedName": "handleAccessLogUpdate(notification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Notification",
+                "printedName": "Foundation.Notification",
+                "usr": "s:10Foundation12NotificationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NuggetFoundation@objc(pl)ZVideoDataLoggable(im)handleAccessLogUpdateWithNotification:",
+            "mangledName": "$s16NuggetFoundation18ZVideoDataLoggableP21handleAccessLogUpdate12notificationy0B012NotificationV_tF",
+            "moduleName": "NuggetFoundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : NuggetFoundation.ZVideoDataLoggable>",
+            "sugared_genericSig": "<Self where Self : NuggetFoundation.ZVideoDataLoggable>",
+            "protocolReq": true,
+            "objc_name": "handleAccessLogUpdateWithNotification:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@NuggetFoundation@objc(pl)ZVideoDataLoggable",
+        "mangledName": "$s16NuggetFoundation18ZVideoDataLoggableP",
+        "moduleName": "NuggetFoundation",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZVideoDataLogger",
+        "printedName": "ZVideoDataLogger",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "player",
+            "printedName": "player",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AVFoundation.AVPlayer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVPlayer",
+                    "printedName": "AVFoundation.AVPlayer",
+                    "usr": "c:objc(cs)AVPlayer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16NuggetFoundation16ZVideoDataLoggerP6playerSo8AVPlayerCSgvp",
+            "mangledName": "$s16NuggetFoundation16ZVideoDataLoggerP6playerSo8AVPlayerCSgvp",
+            "moduleName": "NuggetFoundation",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVPlayer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVPlayer",
+                        "printedName": "AVFoundation.AVPlayer",
+                        "usr": "c:objc(cs)AVPlayer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation16ZVideoDataLoggerP6playerSo8AVPlayerCSgvg",
+                "mangledName": "$s16NuggetFoundation16ZVideoDataLoggerP6playerSo8AVPlayerCSgvg",
+                "moduleName": "NuggetFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : NuggetFoundation.ZVideoDataLogger>",
+                "sugared_genericSig": "<Self where Self : NuggetFoundation.ZVideoDataLogger>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dataUsed",
+            "printedName": "dataUsed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16NuggetFoundation16ZVideoDataLoggerP8dataUseds5Int64Vvp",
+            "mangledName": "$s16NuggetFoundation16ZVideoDataLoggerP8dataUseds5Int64Vvp",
+            "moduleName": "NuggetFoundation",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation16ZVideoDataLoggerP8dataUseds5Int64Vvg",
+                "mangledName": "$s16NuggetFoundation16ZVideoDataLoggerP8dataUseds5Int64Vvg",
+                "moduleName": "NuggetFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : NuggetFoundation.ZVideoDataLogger>",
+                "sugared_genericSig": "<Self where Self : NuggetFoundation.ZVideoDataLogger>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation16ZVideoDataLoggerP8dataUseds5Int64Vvs",
+                "mangledName": "$s16NuggetFoundation16ZVideoDataLoggerP8dataUseds5Int64Vvs",
+                "moduleName": "NuggetFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : NuggetFoundation.ZVideoDataLogger>",
+                "sugared_genericSig": "<Self where Self : NuggetFoundation.ZVideoDataLogger>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation16ZVideoDataLoggerP8dataUseds5Int64VvM",
+                "mangledName": "$s16NuggetFoundation16ZVideoDataLoggerP8dataUseds5Int64VvM",
+                "moduleName": "NuggetFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : NuggetFoundation.ZVideoDataLogger>",
+                "sugared_genericSig": "<Self where Self : NuggetFoundation.ZVideoDataLogger>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "addDataLogger",
+            "printedName": "addDataLogger()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16NuggetFoundation16ZVideoDataLoggerPAAE03adddE0yyF",
+            "mangledName": "$s16NuggetFoundation16ZVideoDataLoggerPAAE03adddE0yyF",
+            "moduleName": "NuggetFoundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : NuggetFoundation.ZVideoDataLogger>",
+            "sugared_genericSig": "<Self where Self : NuggetFoundation.ZVideoDataLogger>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleNewAccessLogEntryUpdate",
+            "printedName": "handleNewAccessLogEntryUpdate(notification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Notification",
+                "printedName": "Foundation.Notification",
+                "usr": "s:10Foundation12NotificationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16NuggetFoundation16ZVideoDataLoggerPAAE29handleNewAccessLogEntryUpdate12notificationy0B012NotificationV_tF",
+            "mangledName": "$s16NuggetFoundation16ZVideoDataLoggerPAAE29handleNewAccessLogEntryUpdate12notificationy0B012NotificationV_tF",
+            "moduleName": "NuggetFoundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : NuggetFoundation.ZVideoDataLogger>",
+            "sugared_genericSig": "<Self where Self : NuggetFoundation.ZVideoDataLogger>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16NuggetFoundation16ZVideoDataLoggerP",
+        "mangledName": "$s16NuggetFoundation16ZVideoDataLoggerP",
+        "moduleName": "NuggetFoundation",
+        "genericSig": "<τ_0_0 : NuggetFoundation.ZVideoDataLoggable>",
+        "sugared_genericSig": "<Self : NuggetFoundation.ZVideoDataLoggable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ZVideoDataLoggable",
+            "printedName": "ZVideoDataLoggable",
+            "usr": "c:@M@NuggetFoundation@objc(pl)ZVideoDataLoggable",
+            "mangledName": "$s16NuggetFoundation18ZVideoDataLoggableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NuggetFoundation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZThreadSafe",
+        "printedName": "ZThreadSafe",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(wrappedValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZThreadSafe",
+                "printedName": "NuggetFoundation.ZThreadSafe<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:16NuggetFoundation11ZThreadSafeC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16NuggetFoundation11ZThreadSafeC12wrappedValueACyxGx_tcfc",
+            "mangledName": "$s16NuggetFoundation11ZThreadSafeC12wrappedValueACyxGx_tcfc",
+            "moduleName": "NuggetFoundation",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16NuggetFoundation11ZThreadSafeC12wrappedValuexvp",
+            "mangledName": "$s16NuggetFoundation11ZThreadSafeC12wrappedValuexvp",
+            "moduleName": "NuggetFoundation",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation11ZThreadSafeC12wrappedValuexvg",
+                "mangledName": "$s16NuggetFoundation11ZThreadSafeC12wrappedValuexvg",
+                "moduleName": "NuggetFoundation",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation11ZThreadSafeC12wrappedValuexvs",
+                "mangledName": "$s16NuggetFoundation11ZThreadSafeC12wrappedValuexvs",
+                "moduleName": "NuggetFoundation",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation11ZThreadSafeC12wrappedValuexvM",
+                "mangledName": "$s16NuggetFoundation11ZThreadSafeC12wrappedValuexvM",
+                "moduleName": "NuggetFoundation",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16NuggetFoundation11ZThreadSafeC",
+        "mangledName": "$s16NuggetFoundation11ZThreadSafeC",
+        "moduleName": "NuggetFoundation",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "PropertyWrapper"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NuggetFoundation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZThreadSafeDict",
+        "printedName": "ZThreadSafeDict",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "startIndex",
+            "printedName": "startIndex",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Index",
+                "printedName": "Swift.Dictionary<τ_0_0, τ_0_1>.Index",
+                "usr": "s:SD5IndexV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16NuggetFoundation15ZThreadSafeDictC10startIndexSD0G0Vyxq__Gvp",
+            "mangledName": "$s16NuggetFoundation15ZThreadSafeDictC10startIndexSD0G0Vyxq__Gvp",
+            "moduleName": "NuggetFoundation",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.Dictionary<τ_0_0, τ_0_1>.Index",
+                    "usr": "s:SD5IndexV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation15ZThreadSafeDictC10startIndexSD0G0Vyxq__Gvg",
+                "mangledName": "$s16NuggetFoundation15ZThreadSafeDictC10startIndexSD0G0Vyxq__Gvg",
+                "moduleName": "NuggetFoundation",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+                "sugared_genericSig": "<V, T where V : Swift.Hashable>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "count",
+            "printedName": "count",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16NuggetFoundation15ZThreadSafeDictC5countSivp",
+            "mangledName": "$s16NuggetFoundation15ZThreadSafeDictC5countSivp",
+            "moduleName": "NuggetFoundation",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation15ZThreadSafeDictC5countSivg",
+                "mangledName": "$s16NuggetFoundation15ZThreadSafeDictC5countSivg",
+                "moduleName": "NuggetFoundation",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+                "sugared_genericSig": "<V, T where V : Swift.Hashable>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "value",
+            "printedName": "value(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_1?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16NuggetFoundation15ZThreadSafeDictC5value3keyq_Sgx_tF",
+            "mangledName": "$s16NuggetFoundation15ZThreadSafeDictC5value3keyq_Sgx_tF",
+            "moduleName": "NuggetFoundation",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+            "sugared_genericSig": "<V, T where V : Swift.Hashable>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "backingStorage",
+            "printedName": "backingStorage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[τ_0_0 : τ_0_1]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16NuggetFoundation15ZThreadSafeDictC14backingStorageSDyxq_Gvp",
+            "mangledName": "$s16NuggetFoundation15ZThreadSafeDictC14backingStorageSDyxq_Gvp",
+            "moduleName": "NuggetFoundation",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[τ_0_0 : τ_0_1]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation15ZThreadSafeDictC14backingStorageSDyxq_Gvg",
+                "mangledName": "$s16NuggetFoundation15ZThreadSafeDictC14backingStorageSDyxq_Gvg",
+                "moduleName": "NuggetFoundation",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+                "sugared_genericSig": "<V, T where V : Swift.Hashable>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "endIndex",
+            "printedName": "endIndex",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Index",
+                "printedName": "Swift.Dictionary<τ_0_0, τ_0_1>.Index",
+                "usr": "s:SD5IndexV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16NuggetFoundation15ZThreadSafeDictC8endIndexSD0G0Vyxq__Gvp",
+            "mangledName": "$s16NuggetFoundation15ZThreadSafeDictC8endIndexSD0G0Vyxq__Gvp",
+            "moduleName": "NuggetFoundation",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.Dictionary<τ_0_0, τ_0_1>.Index",
+                    "usr": "s:SD5IndexV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation15ZThreadSafeDictC8endIndexSD0G0Vyxq__Gvg",
+                "mangledName": "$s16NuggetFoundation15ZThreadSafeDictC8endIndexSD0G0Vyxq__Gvg",
+                "moduleName": "NuggetFoundation",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+                "sugared_genericSig": "<V, T where V : Swift.Hashable>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(dict:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZThreadSafeDict",
+                "printedName": "NuggetFoundation.ZThreadSafeDict<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:16NuggetFoundation15ZThreadSafeDictC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[τ_0_0 : τ_0_1]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16NuggetFoundation15ZThreadSafeDictC4dictACyxq_GSDyxq_G_tcfc",
+            "mangledName": "$s16NuggetFoundation15ZThreadSafeDictC4dictACyxq_GSDyxq_G_tcfc",
+            "moduleName": "NuggetFoundation",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+            "sugared_genericSig": "<V, T where V : Swift.Hashable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "index",
+            "printedName": "index(after:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Index",
+                "printedName": "Swift.Dictionary<τ_0_0, τ_0_1>.Index",
+                "usr": "s:SD5IndexV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Index",
+                "printedName": "Swift.Dictionary<τ_0_0, τ_0_1>.Index",
+                "usr": "s:SD5IndexV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16NuggetFoundation15ZThreadSafeDictC5index5afterSD5IndexVyxq__GAH_tF",
+            "mangledName": "$s16NuggetFoundation15ZThreadSafeDictC5index5afterSD5IndexVyxq__GAH_tF",
+            "moduleName": "NuggetFoundation",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+            "sugared_genericSig": "<V, T where V : Swift.Hashable>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_1?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:16NuggetFoundation15ZThreadSafeDictCyq_Sgxcip",
+            "mangledName": "$s16NuggetFoundation15ZThreadSafeDictCyq_Sgxcip",
+            "moduleName": "NuggetFoundation",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+            "sugared_genericSig": "<V, T where V : Swift.Hashable>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_1?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation15ZThreadSafeDictCyq_Sgxcig",
+                "mangledName": "$s16NuggetFoundation15ZThreadSafeDictCyq_Sgxcig",
+                "moduleName": "NuggetFoundation",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+                "sugared_genericSig": "<V, T where V : Swift.Hashable>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_1?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation15ZThreadSafeDictCyq_Sgxcis",
+                "mangledName": "$s16NuggetFoundation15ZThreadSafeDictCyq_Sgxcis",
+                "moduleName": "NuggetFoundation",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+                "sugared_genericSig": "<V, T where V : Swift.Hashable>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation15ZThreadSafeDictCyq_SgxciM",
+                "mangledName": "$s16NuggetFoundation15ZThreadSafeDictCyq_SgxciM",
+                "moduleName": "NuggetFoundation",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+                "sugared_genericSig": "<V, T where V : Swift.Hashable>",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(key: τ_0_0, value: τ_0_1)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Index",
+                "printedName": "Swift.Dictionary<τ_0_0, τ_0_1>.Index",
+                "usr": "s:SD5IndexV"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:16NuggetFoundation15ZThreadSafeDictCyx3key_q_5valuetSD5IndexVyxq__Gcip",
+            "mangledName": "$s16NuggetFoundation15ZThreadSafeDictCyx3key_q_5valuetSD5IndexVyxq__Gcip",
+            "moduleName": "NuggetFoundation",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+            "sugared_genericSig": "<V, T where V : Swift.Hashable>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(key: τ_0_0, value: τ_0_1)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.Dictionary<τ_0_0, τ_0_1>.Index",
+                    "usr": "s:SD5IndexV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation15ZThreadSafeDictCyx3key_q_5valuetSD5IndexVyxq__Gcig",
+                "mangledName": "$s16NuggetFoundation15ZThreadSafeDictCyx3key_q_5valuetSD5IndexVyxq__Gcig",
+                "moduleName": "NuggetFoundation",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+                "sugared_genericSig": "<V, T where V : Swift.Hashable>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "removeValue",
+            "printedName": "removeValue(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16NuggetFoundation15ZThreadSafeDictC11removeValue6forKeyyx_tF",
+            "mangledName": "$s16NuggetFoundation15ZThreadSafeDictC11removeValue6forKeyyx_tF",
+            "moduleName": "NuggetFoundation",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+            "sugared_genericSig": "<V, T where V : Swift.Hashable>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAll",
+            "printedName": "removeAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16NuggetFoundation15ZThreadSafeDictC9removeAllyyF",
+            "mangledName": "$s16NuggetFoundation15ZThreadSafeDictC9removeAllyyF",
+            "moduleName": "NuggetFoundation",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+            "sugared_genericSig": "<V, T where V : Swift.Hashable>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeIterator",
+            "printedName": "makeIterator()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IndexingIterator",
+                "printedName": "Swift.IndexingIterator<Swift.Range<Swift.Int>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ],
+                "usr": "s:s16IndexingIteratorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16NuggetFoundation15ZThreadSafeDictC12makeIterators08IndexingG0VySnySiGGyF",
+            "mangledName": "$s16NuggetFoundation15ZThreadSafeDictC12makeIterators08IndexingG0VySnySiGGyF",
+            "moduleName": "NuggetFoundation",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+            "sugared_genericSig": "<V, T where V : Swift.Hashable>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "values",
+            "printedName": "values",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Values",
+                "printedName": "Swift.Dictionary<τ_0_0, τ_0_1>.Values",
+                "usr": "s:SD6ValuesV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16NuggetFoundation15ZThreadSafeDictC6valuesSD6ValuesVyxq__Gvp",
+            "mangledName": "$s16NuggetFoundation15ZThreadSafeDictC6valuesSD6ValuesVyxq__Gvp",
+            "moduleName": "NuggetFoundation",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Values",
+                    "printedName": "Swift.Dictionary<τ_0_0, τ_0_1>.Values",
+                    "usr": "s:SD6ValuesV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NuggetFoundation15ZThreadSafeDictC6valuesSD6ValuesVyxq__Gvg",
+                "mangledName": "$s16NuggetFoundation15ZThreadSafeDictC6valuesSD6ValuesVyxq__Gvg",
+                "moduleName": "NuggetFoundation",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+                "sugared_genericSig": "<V, T where V : Swift.Hashable>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "sorted",
+            "printedName": "sorted(by:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[(key: τ_0_0, value: τ_0_1)]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(key: τ_0_0, value: τ_0_1)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((key: τ_0_0, value: τ_0_1), (key: τ_0_0, value: τ_0_1)) throws -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "((key: τ_0_0, value: τ_0_1), (key: τ_0_0, value: τ_0_1))",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(key: τ_0_0, value: τ_0_1)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(key: τ_0_0, value: τ_0_1)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16NuggetFoundation15ZThreadSafeDictC6sorted2bySayx3key_q_5valuetGSbxAF_q_AGt_xAF_q_AGttKXE_tKF",
+            "mangledName": "$s16NuggetFoundation15ZThreadSafeDictC6sorted2bySayx3key_q_5valuetGSbxAF_q_AGt_xAF_q_AGttKXE_tKF",
+            "moduleName": "NuggetFoundation",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+            "sugared_genericSig": "<V, T where V : Swift.Hashable>",
+            "declAttributes": [
+              "Final",
+              "Rethrows",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16NuggetFoundation15ZThreadSafeDictC",
+        "mangledName": "$s16NuggetFoundation15ZThreadSafeDictC",
+        "moduleName": "NuggetFoundation",
+        "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+        "sugared_genericSig": "<V, T where V : Swift.Hashable>",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "String",
+        "printedName": "String",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "parameterDictionary",
+            "printedName": "parameterDictionary(removingPercentEncoding:shouldUseNewMethod:mismatchErrorHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS16NuggetFoundationE19parameterDictionary23removingPercentEncoding18shouldUseNewMethod20mismatchErrorHandlerSDyS2SGSb_SbyyXEtF",
+            "mangledName": "$sSS16NuggetFoundationE19parameterDictionary23removingPercentEncoding18shouldUseNewMethod20mismatchErrorHandlerSDyS2SGSb_SbyyXEtF",
+            "moduleName": "NuggetFoundation",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:SS",
+        "mangledName": "$sSS",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "EagerMove",
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStream",
+            "printedName": "TextOutputStream",
+            "usr": "s:s16TextOutputStreamP",
+            "mangledName": "$ss16TextOutputStreamP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
+            "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinStringLiteral",
+            "printedName": "_ExpressibleByBuiltinStringLiteral",
+            "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
+            "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringLiteral",
+            "printedName": "ExpressibleByStringLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringLiteralType",
+                "printedName": "StringLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s26ExpressibleByStringLiteralP",
+            "mangledName": "$ss26ExpressibleByStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedGraphemeClusterLiteralType",
+                "printedName": "ExtendedGraphemeClusterLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarLiteralType",
+                "printedName": "UnicodeScalarLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StringProtocol",
+            "printedName": "StringProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UTF8View",
+                "printedName": "UTF8View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF8View",
+                    "printedName": "Swift.String.UTF8View",
+                    "usr": "s:SS8UTF8ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UTF16View",
+                "printedName": "UTF16View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF16View",
+                    "printedName": "Swift.String.UTF16View",
+                    "usr": "s:SS9UTF16ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarView",
+                "printedName": "UnicodeScalarView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnicodeScalarView",
+                    "printedName": "Swift.String.UnicodeScalarView",
+                    "usr": "s:SS17UnicodeScalarViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sy",
+            "mangledName": "$sSy"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringInterpolation",
+            "printedName": "ExpressibleByStringInterpolation",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringInterpolation",
+                "printedName": "StringInterpolation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultStringInterpolation",
+                    "printedName": "Swift.DefaultStringInterpolation",
+                    "usr": "s:s26DefaultStringInterpolationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s32ExpressibleByStringInterpolationP",
+            "mangledName": "$ss32ExpressibleByStringInterpolationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/rajesh.budhirajazomato.com\/Zomato\/Nugget\/ExternalDistribution\/Final\/NuggetFoundation\/NuggetFoundation\/Source\/OSBuildVersionChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 643,
+      "length": 3,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/rajesh.budhirajazomato.com\/Zomato\/Nugget\/ExternalDistribution\/Final\/NuggetFoundation\/NuggetFoundation\/Source\/OSBuildVersionChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 656,
+      "length": 3,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/rajesh.budhirajazomato.com\/Zomato\/Nugget\/ExternalDistribution\/Final\/NuggetFoundation\/NuggetFoundation\/Source\/OSBuildVersionChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 695,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/rajesh.budhirajazomato.com\/Zomato\/Nugget\/ExternalDistribution\/Final\/NuggetFoundation\/NuggetFoundation\/Source\/OSBuildVersionChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 708,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rajesh.budhirajazomato.com\/Zomato\/Nugget\/ExternalDistribution\/Final\/NuggetFoundation\/NuggetFoundation\/Source\/OSBuildVersionChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 830,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rajesh.budhirajazomato.com\/Zomato\/Nugget\/ExternalDistribution\/Final\/NuggetFoundation\/NuggetFoundation\/Source\/OSBuildVersionChecker.swift",
+      "kind": "Array",
+      "offset": 953,
+      "length": 460,
+      "value": "[\"22A5282m\", \"22A5297f\", \"22A5307f\", \"22A5307i\", \"22A5316j\", \"22A5316k\", \"22A5326f\", \"22A5338b\", \"22B5007p\", \"22B5023e\"]"
+    },
+    {
+      "filePath": "\/Users\/rajesh.budhirajazomato.com\/Zomato\/Nugget\/ExternalDistribution\/Final\/NuggetFoundation\/NuggetFoundation\/Source\/ZThreadSafe.swift",
+      "kind": "StringLiteral",
+      "offset": 226,
+      "length": 35,
+      "value": "\"com.zomato.ZFoundation.ThreadSafe\""
+    },
+    {
+      "filePath": "\/Users\/rajesh.budhirajazomato.com\/Zomato\/Nugget\/ExternalDistribution\/Final\/NuggetFoundation\/NuggetFoundation\/Source\/ZThreadSafeDict.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 28,
+      "value": "\"ZThread Safe Barrier Queue\""
+    }
+  ]
+}
