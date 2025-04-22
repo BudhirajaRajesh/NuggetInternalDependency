@@ -1,6 +1,0 @@
-framework module NuggetFoundation {
-  umbrella header "NuggetFoundation.h"
-  export *
-
-  module * { export * }
-}
