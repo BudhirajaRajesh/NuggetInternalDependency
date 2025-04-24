@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "NuggetInternalDependency",
     platforms: [
-        .iOS(.v13) // Specify your minimum iOS version
+        .iOS(.v14) // Specify your minimum iOS version
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
@@ -18,18 +18,18 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "NuggetFoundation",
-            url: "https://github.com/BudhirajaRajesh/NuggetFoundation/releases/download/1.0.0/NuggetFoundation.xcframework.zip",
-            checksum: "69ded32bf6c31cb0aed9b1b87186f8ebafb2f06ddf444f2efcee2557ae979a75"
+            url: "https://github.com/BudhirajaRajesh/NuggetInternalDependency/releases/download/1.1.0-NuggetFoundation/NuggetFoundation.xcframework.zip",
+            checksum: "d3dcf5e92ae04a8c85d98362983bf375793c819bc0118f108988d94d287581d2"
         ),
         .binaryTarget(
             name: "NuggetJumbo",
-            url: "https://github.com/BudhirajaRajesh/NuggetJumbo/releases/download/1.0.0/NuggetJumbo.xcframework.zip",
-            checksum: "b6eba3873ea023c60c012f2c5db1f2bd072f949189be20c091da5720f80c8f98"
+            url: "https://github.com/BudhirajaRajesh/NuggetInternalDependency/releases/download/1.1.0-NuggetJumbo/NuggetJumbo.xcframework.zip",
+            checksum: "2fb060161d6c67afe914ebeb2cb18a981495f2fe4f7c80e3dce10388d26c3a54"
         ),
         .binaryTarget(
             name: "NuggetApiManager",
-            url: "https://github.com/BudhirajaRajesh/NuggetAPIManager/releases/download/1.0.0/ZApiManager.xcframework.zip",
-            checksum: "d9ae9426c22e234c729b3ba645d75a92c31c4bb25564856df1d3e3136ad92941"
+            url: "https://github.com/BudhirajaRajesh/NuggetInternalDependency/releases/download/1.1.0-NuggetAPIManager/ZApiManager.xcframework.zip",
+            checksum: "d51fbd1febb52f8cd211a4ce1cff3c92f427a725b82ec96fbd96dfe30f129ebd"
         ),
         .target(
             name: "NuggetInternalDependency",
