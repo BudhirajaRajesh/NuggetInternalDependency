@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "NuggetApiManager",
-            url: "https://github.com/BudhirajaRajesh/NuggetInternalDependency/releases/download/1.1.0-NuggetAPIManager/ZApiManager.xcframework.zip",
-            checksum: "d51fbd1febb52f8cd211a4ce1cff3c92f427a725b82ec96fbd96dfe30f129ebd"
+            url: "https://github.com/BudhirajaRajesh/NuggetAPIManager/releases/download/1.0.0/ZApiManager.xcframework.zip",
+            checksum: "d9ae9426c22e234c729b3ba645d75a92c31c4bb25564856df1d3e3136ad92941"
         ),
         .target(
             name: "NuggetInternalDependency",
