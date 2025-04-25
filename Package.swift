@@ -18,18 +18,18 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "NuggetFoundation",
-            url: "https://github.com/BudhirajaRajesh/NuggetInternalDependency/releases/download/1.1.0-NuggetFoundation/NuggetFoundation.xcframework.zip",
-            checksum: "d3dcf5e92ae04a8c85d98362983bf375793c819bc0118f108988d94d287581d2"
+            url: "https://github.com/BudhirajaRajesh/NuggetInternalDependency/releases/download/1.1.2-NuggetFoundation/NuggetFoundation.xcframework.zip",
+            checksum: "9cd0f3e2b5129d5344a023005bb55f8a8e024d45a56dfa717e8900e6351dca1a"
         ),
         .binaryTarget(
             name: "NuggetJumbo",
-            url: "https://github.com/BudhirajaRajesh/NuggetInternalDependency/releases/download/1.1.0-NuggetJumbo/NuggetJumbo.xcframework.zip",
-            checksum: "2fb060161d6c67afe914ebeb2cb18a981495f2fe4f7c80e3dce10388d26c3a54"
+            url: "https://github.com/BudhirajaRajesh/NuggetInternalDependency/releases/download/1.1.2-NuggetJumbo/NuggetJumbo.xcframework.zip",
+            checksum: "1aa3585cf5968544fd1c3ad9ce6787a6c9e9ab8c82651cc1b3eb893239186ede"
         ),
         .binaryTarget(
             name: "NuggetApiManager",
-            url: "https://github.com/BudhirajaRajesh/NuggetAPIManager/releases/download/1.0.0/ZApiManager.xcframework.zip",
-            checksum: "d9ae9426c22e234c729b3ba645d75a92c31c4bb25564856df1d3e3136ad92941"
+            url: "https://github.com/BudhirajaRajesh/NuggetInternalDependency/releases/download/1.1.2-NuggetApiManager/ZApiManager.xcframework.zip",
+            checksum: "1f70d09e969cb7d344cdb5f5d9e86e1386f2c22274c7d75b9611e13fbbfa0360"
         ),
         .target(
             name: "NuggetInternalDependency",
